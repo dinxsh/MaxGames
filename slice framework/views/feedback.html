@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slice - Feedback</title>
+    <link rel="stylesheet" type="text/css" href="/style/global.css" />
+    <link rel="stylesheet" type="text/css" href="/style/feedback.css" />
+    <link rel="stylesheet" href="style/navbar.css" />
+    <script src="navbar.js"></script>
+</head>
+<body>
+    <div class="MarqueeGlobalDiv">        
+        <center><marquee class="MarqueeGlobal" direction="left" >
+            <div class="marquee-content">|</div>
+            <div class="marquee-content">Slice Css Framework 1.0 is out! View the <a href="#features">features</a> and <a href="#release">release</a> </div>
+            <div class="marquee-content">|</div>
+            <div class="marquee-content">Check out the list of <a href="#components">components</a> we offer! </div></a>
+            <div class="marquee-content">|</div>
+            <div class="marquee-content">Support us on <a href="patreon">patreon</a> 🐱‍👤 </div></a>
+            <div class="marquee-content">|</div>
+        </marquee></center>
+    </div>    
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="/">Introduction</a>
+        <a href="get-started">Get Started</a>
+        <a href="feedback">Feedback</a>        
+        </div>
+        
+        <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>          
+        </div>  
+    </div>
+       
+    <div class="main-content">        
+        <h1>Gib Feedback</h1><hr class="HalfHR" /><br>
+        <form action="SaveData">            
+            Name: <br>
+            <input type="text" name="name" placeholder="Enter name"> <br><br>
+            Email: <br>
+            <input type="text" name="email" placeholder="Enter name"> <br><br>
+            Complain: <br>
+            <textarea type="text" name="complain" placeholder="Enter Complain" ></textarea> <br><br>
+            <button type="submit">Submit</button> <br><br><br>
+        </form>
+    </div>
+</body>
+</html>
+

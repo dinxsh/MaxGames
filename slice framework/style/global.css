@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    font-family:Cambria;
+    color:darkslategrey;    
+}
+
+.comp-buttons{
+    box-shadow: 3px 3px 3px lightgray;
+    margin:10px;
+    background-color: lightcoral;        
+    color:white;
+    border:0px;
+    padding:8px;
+    border-radius:10px;    
+}
+
+#TitleNavBar {
+    font-family: Cambria;
+    color: lightsalmon;
+    text-shadow: 1px 1px 1px slategrey;             
+    font-size: 40px;
+}
+#CdnLinkInput{
+    width:200px;
+}
+.HalfHR{
+    width:95%;
+}
+.MarqueeGlobalDiv{
+    background-color: coral;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:30px;
+    color:white;
+    font-weight: 540;
+    font-size: large;    
+}
+.marquee-content{
+    margin-right:24px;
+    display: inline-block;
+    flex:0;
+}
+a {
+    text-decoration: none;
+}
+
+.sidebar {
+    position: absolute;
+    left:0;
+}

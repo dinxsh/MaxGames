@@ -1,0 +1,24 @@
+.comp-buttons{
+    box-shadow: 3px 3px 3px lightgray;
+    margin:10px;
+    background-color: lightcoral;        
+    color:white;
+    border:0px;
+    padding:8px;
+    border-radius:10px;
+}
+
+#CdnLinkInput {
+   padding:10px;
+   width:35%;
+}
+
+.CDNLink-group {
+    display: inline-block;
+    flex:0;
+    margin:0px;
+}
+
+#CDNLink-Copy{
+    padding:10px;
+}

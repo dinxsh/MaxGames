@@ -2,7 +2,7 @@ const express = require("express")
 const Router = express()
 
 Router.get("/", (req,res)=>{
-    res.render("../frontend/")
+    res.render("../frontend/home.html")
 })
 
 Router.get("/info", (req,res)=>{

@@ -5,9 +5,8 @@ Router.get("/", (req,res)=>{
     res.render("../frontend/home.html")
 })
 
-Router.get("/info", (req,res)=>{
-    res.json({status:"400"})    
-    // status check and response in json
+Router.get("/report", (req,res)=>{
+    res.render("../frontend/report.html")
 })
 
 module.exports = Router

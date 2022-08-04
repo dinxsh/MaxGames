@@ -1,19 +1,27 @@
 {
   "name": "cargo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Cargo website for fiverr client",
+  "main": "backend",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "blaze",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "mongodb": "^4.7.0",
     "mongoose": "^6.4.3",
     "nodemon": "^2.0.19"
+  },
+  "engines": {
+    "node": "16.14.1"
   }
 }

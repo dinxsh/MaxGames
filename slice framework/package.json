@@ -1,14 +1,14 @@
 {
-  "name": "nodejs",
+  "name": "YeetCss",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "provides css components :)",
+  "main": "backend",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "blaze",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.0",
     "ejs": "^3.1.8",

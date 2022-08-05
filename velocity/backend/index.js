@@ -7,7 +7,6 @@ app.engine('html', require('ejs').renderFile);
 
 app.use(express.static(path.join(__dirname, "../frontend/")));
 
-// routes
 const MainRouter = require("../backend/routes/main")
 app.use("/", MainRouter)
 const GameRouter = require("../backend/routes/game")

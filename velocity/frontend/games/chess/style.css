@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap');
+
+html, body {
+  display: grid;
+	place-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 1vh 0;
+  background: rgb(35,60,77);
+  background: linear-gradient(315deg, red , yellow);
+  font: 400 16rem "Fira Sans", sans-serif;
+  line-height: 1.4;
+  user-select: none;
+}
+
+.extra-zone {
+  min-width: 81.5vh;
+  height: 4vh;
+  padding: 1vh;
+  display: inline;
+}
+
+.captured-zone {
+  width: 80%;
+  height: 100%;
+  margin: 0;
+  float: left;
+  line-height: 1.1;
+}
+
+.countdown-timer {
+  width: 12%;
+  margin-left: 8%;
+  height: 100%;
+  float: left;
+  background-color: white;
+  text-align: center;
+  font-size: 3.2vh;
+  font-family: Poppins;
+  font-weight: 600;
+  border-radius: 0.5vh;
+}
+
+.chessboard {
+  background: linear-gradient(120deg, rgba(27,13,9,1) 50%, #4e261c 100%);
+  padding: 3vh 2vh;
+  min-width: 81.5vh;
+}
+
+.line {
+  margin-left: 1%;
+  min-width: 100%;
+}
+
+.square {
+  width: 10vh;
+  height: 10vh;
+  margin: 0;
+  float: left;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.line:nth-child(even) .square:nth-child(odd) {
+  background-color: #235e71;
+}
+
+.line:nth-child(even) .square:nth-child(even) {
+  background-color: #dbd3bc;
+}
+
+.line:nth-child(odd) .square:nth-child(odd) {
+  background-color: #dbd3bc;
+}
+
+.line:nth-child(odd) .square:nth-child(even) {
+  background-color: #235e71;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.white, .black {
+  width: fit-content;
+  margin: auto;
+}
+
+.square > .white, .square > .black {
+  font-size: 10vh;
+/*   margin-top: -2vh; */
+}
+
+.captured-zone > .white, .captured-zone > .black{
+  font-size: 4vh;
+  float: left;
+}
+
+.draggable:hover {
+  cursor: grab;
+}
+
+.draggable:active {
+  cursor: grabbing;
+}
+
+.dragging {
+  opacity: 0.6;
+}
+
+.dropzone {
+  background: radial-gradient(circle at center, rgba(0, 0, 0, 0.1) 25.5%, transparent 25%);
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+}
+
+.dragover {
+  box-shadow: inset 0 0 0 0.7vh rgba(0, 0, 0, 0.1);
+}
+
+.capture {
+  background: radial-gradient(circle at center, transparent 55%, rgba(0, 0, 0, 0.2) 56%, transparent 66%);
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+}
+
+#piece-selector {
+  display: block;
+  position: absolute;
+  background-color: inherit;
+  box-shadow: 0 0 16px 0.7vh rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
+#piece-selector a {
+  display: block;
+  user-select: none;
+  width: fit-content;
+  margin: auto;
+/*   margin-top: -2vh; */
+  padding-bottom: 2vh;
+  width: 10vh;
+  height: 10vh;
+  font-size: 10vh;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: fit-content;
+  margin-top: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #1e1f26;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 10px;
+  text-align: center;
+  color: #F5F5F5;
+  font-family: Poppins;
+}
+
+footer a:link {
+  color: #b3a290;
+}
+footer a:visited {
+  color: #91d4d0;
+}
+footer a:hover {
+  color: #ff3300;
+}
+footer a:active {
+  color: #ff3300;
+}
+
+.name-dark {
+  color: #91d4d0;
+  text-decoration: none;
+  background: linear-gradient(to right, #91d4d0 50%, #ff3300 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
